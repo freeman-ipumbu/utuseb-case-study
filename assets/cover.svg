@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Utuseb Bar and Delivery platform</title>
+  <desc id="desc">A charcoal and copper presentation of the Utuseb customer storefront and mobile experience.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11100e"/><stop offset=".55" stop-color="#2b1d12"/><stop offset="1" stop-color="#543015"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#e1903c" stop-opacity=".6"/><stop offset="1" stop-color="#e1903c" stop-opacity="0"/></radialGradient>
+    <linearGradient id="cream" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fffdf8"/><stop offset="1" stop-color="#f3eadf"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="28" stdDeviation="28" flood-opacity=".42"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1375" cy="75" r="430" fill="url(#glow)"/>
+  <circle cx="80" cy="880" r="370" fill="url(#glow)" opacity=".35"/>
+  <g transform="translate(105 115)">
+    <rect width="54" height="54" rx="16" fill="#db8a35"/>
+    <path d="M18 14h18M20 19l4 21h6l4-21M23 28h8" fill="none" stroke="#18120c" stroke-width="3" stroke-linecap="round"/>
+    <text x="72" y="27" fill="#fff8ef" font-family="Arial,sans-serif" font-size="27" font-weight="800" letter-spacing="5">UTUSEB</text>
+    <text x="73" y="48" fill="#b8ada1" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="3">BAR &amp; DELIVERY</text>
+    <text y="160" fill="#e5a35f" font-family="Arial,sans-serif" font-size="14" font-weight="800" letter-spacing="3">PRODUCT CASE STUDY · 2026</text>
+    <text y="235" fill="#fffaf2" font-family="Georgia,serif" font-size="84" font-weight="600">The home bar,</text>
+    <text y="320" fill="#e59a4c" font-family="Georgia,serif" font-size="84" font-style="italic">now in your pocket.</text>
+    <text y="380" fill="#bdb2a6" font-family="Arial,sans-serif" font-size="23">Mobile ordering, fulfilment and stock control</text>
+    <text y="415" fill="#bdb2a6" font-family="Arial,sans-serif" font-size="23">built for a local Namibian drinks business.</text>
+    <g transform="translate(0 490)">
+      <rect width="174" height="54" rx="16" fill="#db8a35"/>
+      <text x="87" y="34" text-anchor="middle" fill="#18120c" font-family="Arial,sans-serif" font-size="15" font-weight="800">LIVE PRODUCT</text>
+      <text x="200" y="33" fill="#f6e6d3" font-family="Arial,sans-serif" font-size="16" font-weight="700">utuseb.pages.dev</text>
+    </g>
+  </g>
+  <g transform="translate(870 92) rotate(3 290 350)" filter="url(#shadow)">
+    <rect width="600" height="690" rx="28" fill="url(#cream)"/>
+    <rect width="600" height="74" rx="28" fill="#171512"/><rect y="45" width="600" height="29" fill="#171512"/>
+    <circle cx="41" cy="36" r="8" fill="#db8a35"/><text x="60" y="43" fill="#fff" font-family="Arial" font-size="16" font-weight="800" letter-spacing="2">UTUSEB</text>
+    <rect x="455" y="19" width="112" height="36" rx="12" fill="#db8a35"/><text x="511" y="42" text-anchor="middle" fill="#18120c" font-family="Arial" font-size="13" font-weight="800">CART · 2</text>
+    <rect y="74" width="600" height="190" fill="#251911"/>
+    <circle cx="520" cy="91" r="130" fill="url(#glow)"/>
+    <text x="35" y="123" fill="#e5a35f" font-family="Arial" font-size="10" font-weight="800" letter-spacing="2">COLD. QUICK. LOCAL.</text>
+    <text x="35" y="177" fill="#fff8ef" font-family="Georgia" font-size="48" font-weight="600">Good drinks,</text>
+    <text x="35" y="224" fill="#e59a4c" font-family="Georgia" font-size="48" font-style="italic">delivered.</text>
+    <text x="32" y="307" fill="#9a672d" font-family="Arial" font-size="11" font-weight="800" letter-spacing="2">THE BOTTLE SHOP</text>
+    <text x="32" y="343" fill="#201b16" font-family="Georgia" font-size="28" font-weight="600">Pick your drinks</text>
+    <g transform="translate(32 371)">
+      <rect width="74" height="32" rx="16" fill="#201b16"/><text x="37" y="21" text-anchor="middle" fill="#fff" font-family="Arial" font-size="11" font-weight="700">All</text>
+      <g fill="#fffdf9" stroke="#dbd1c5"><rect x="83" width="74" height="32" rx="16"/><rect x="166" width="74" height="32" rx="16"/><rect x="249" width="74" height="32" rx="16"/></g>
+      <g fill="#72685f" font-family="Arial" font-size="11" font-weight="700" text-anchor="middle"><text x="120" y="21">Beer</text><text x="203" y="21">Cider</text><text x="286" y="21">RTD</text></g>
+    </g>
+    <g transform="translate(32 426)">
+      <g><rect width="164" height="218" rx="18" fill="#fff" stroke="#ded6ca"/><rect width="164" height="112" rx="18" fill="#e9bd79"/><rect y="94" width="164" height="18" fill="#e9bd79"/><text x="14" y="137" fill="#a46b30" font-family="Arial" font-size="9" font-weight="800">BEER</text><text x="14" y="160" fill="#211b15" font-family="Arial" font-size="15" font-weight="800">Tafel Lager</text><text x="14" y="180" fill="#8d847a" font-family="Arial" font-size="10">6 × 330ml</text><text x="14" y="207" fill="#211b15" font-family="Arial" font-size="16" font-weight="800">N$ 120</text><circle cx="140" cy="198" r="15" fill="#d98932"/><path d="M135 198h10M140 193v10" stroke="#17120c" stroke-width="2"/></g>
+      <g transform="translate(180)"><rect width="164" height="218" rx="18" fill="#fff" stroke="#ded6ca"/><rect width="164" height="112" rx="18" fill="#a9c28b"/><rect y="94" width="164" height="18" fill="#a9c28b"/><text x="14" y="137" fill="#a46b30" font-family="Arial" font-size="9" font-weight="800">CIDER</text><text x="14" y="160" fill="#211b15" font-family="Arial" font-size="15" font-weight="800">Savanna Dry</text><text x="14" y="180" fill="#8d847a" font-family="Arial" font-size="10">6 × 330ml</text><text x="14" y="207" fill="#211b15" font-family="Arial" font-size="16" font-weight="800">N$ 132</text><circle cx="140" cy="198" r="15" fill="#d98932"/><path d="M135 198h10M140 193v10" stroke="#17120c" stroke-width="2"/></g>
+      <g transform="translate(360)"><rect width="164" height="218" rx="18" fill="#fff" stroke="#ded6ca"/><rect width="164" height="112" rx="18" fill="#d5c16e"/><rect y="94" width="164" height="18" fill="#d5c16e"/><text x="14" y="137" fill="#a46b30" font-family="Arial" font-size="9" font-weight="800">CHAMPAGNE</text><text x="14" y="160" fill="#211b15" font-family="Arial" font-size="15" font-weight="800">JC Le Roux</text><text x="14" y="180" fill="#8d847a" font-family="Arial" font-size="10">750ml</text><text x="14" y="207" fill="#211b15" font-family="Arial" font-size="16" font-weight="800">N$ 135</text><circle cx="140" cy="198" r="15" fill="#d98932"/><path d="M135 198h10M140 193v10" stroke="#17120c" stroke-width="2"/></g>
+    </g>
+  </g>
+</svg>
