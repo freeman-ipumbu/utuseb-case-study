@@ -18,7 +18,7 @@ The business needed one connected system that customers could order from and Ken
 | Product range | 46 product-specific items spanning drinks, mixers, tobacco and hookah rentals |
 | Payments | Cash on delivery and eWallet to the business number |
 | Mobile app | Installable PWA, offline shell, responsive cart and safe-area support |
-| Operations | PIN-protected dashboard, order pipeline, revenue summary and stock controls |
+| Operations | PIN-protected all-orders ledger, fulfilment pipeline, sales/stock reporting and stock controls |
 | Backend | Pages Functions APIs with Cloudflare D1 persistence |
 
 ## Experience strategy
@@ -75,6 +75,10 @@ The storefront is statically rendered and globally cached. Dynamic work is isola
 Stock is deducted when an order is accepted. Kenny can move delivery and pickup orders through the same clear fulfilment queue and adjust each stock count from the mobile-capable dashboard. Low-stock items are surfaced automatically.
 
 Pickup is always free, with the time and private collection point confirmed directly by Kenny. The customer's first delivery is free; later deliveries are free when the item subtotal reaches N$ 200 and N$ 50 below that threshold. The server calculates the fee from live prices and order history, so the checkout total cannot be manipulated in the browser.
+
+Checkout fields are constrained in the interface and revalidated by the API. Customer numbers must be exactly 10 digits in local Namibian format, and pickup orders require an explicit requested date and time within the next 30 days. The requested slot appears in Kenny's order queue but remains subject to direct confirmation.
+
+The control room includes a searchable, status-filtered and paginated order ledger; pickup-aware “ready for pickup” handling; range-based revenue and order KPIs; daily sales charts; cash/eWallet mix; best sellers; inventory valuation; low/out-of-stock watchlists; and formula-injection-safe CSV exports for sales and stock reporting.
 
 The launch catalogue is intentionally broad and based on popular local categories. Prices, variants, quantities, trading hours and availability remain operator-controlled and should be verified as part of daily operations.
 
