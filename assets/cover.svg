@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
-  <title id="title">Utuseb Bar and Delivery platform</title>
+  <title id="title">Utuseb Drinks and Delivery platform</title>
   <desc id="desc">A charcoal and copper presentation of the Utuseb customer storefront and mobile experience.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11100e"/><stop offset=".55" stop-color="#2b1d12"/><stop offset="1" stop-color="#543015"/></linearGradient>
@@ -14,9 +14,9 @@
     <rect width="54" height="54" rx="16" fill="#db8a35"/>
     <path d="M18 14h18M20 19l4 21h6l4-21M23 28h8" fill="none" stroke="#18120c" stroke-width="3" stroke-linecap="round"/>
     <text x="72" y="27" fill="#fff8ef" font-family="Arial,sans-serif" font-size="27" font-weight="800" letter-spacing="5">UTUSEB</text>
-    <text x="73" y="48" fill="#b8ada1" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="3">BAR &amp; DELIVERY</text>
+    <text x="73" y="48" fill="#b8ada1" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="3">DRINKS &amp; DELIVERY</text>
     <text y="160" fill="#e5a35f" font-family="Arial,sans-serif" font-size="14" font-weight="800" letter-spacing="3">PRODUCT CASE STUDY · 2026</text>
-    <text y="235" fill="#fffaf2" font-family="Georgia,serif" font-size="84" font-weight="600">The home bar,</text>
+    <text y="235" fill="#fffaf2" font-family="Georgia,serif" font-size="84" font-weight="600">Private stock,</text>
     <text y="320" fill="#e59a4c" font-family="Georgia,serif" font-size="84" font-style="italic">now in your pocket.</text>
     <text y="380" fill="#bdb2a6" font-family="Arial,sans-serif" font-size="23">Mobile ordering, fulfilment and stock control</text>
     <text y="415" fill="#bdb2a6" font-family="Arial,sans-serif" font-size="23">built for a local Namibian drinks business.</text>
