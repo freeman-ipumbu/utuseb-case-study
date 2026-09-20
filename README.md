@@ -14,8 +14,8 @@ The business needed one connected system that customers could order from and Ken
 
 | Surface | Capability |
 | --- | --- |
-| Customer shop | Delivery or arranged pickup, search, 15 category filters, live availability, cart and checkout |
-| Product range | 46 product-specific items spanning drinks, mixers, tobacco and hookah rentals |
+| Customer shop | Delivery or arranged pickup, search, 16 category filters, live availability, cart and checkout |
+| Product range | 47 product-specific items spanning drinks, mixers, ice, tobacco, AirsPops and hookah rentals |
 | Payments | Cash on delivery and eWallet to the business number |
 | Mobile app | Installable PWA, offline shell, responsive cart and safe-area support |
 | Operations | PIN-protected all-orders ledger, fulfilment pipeline, sales/stock reporting and stock controls |
@@ -25,7 +25,7 @@ The business needed one connected system that customers could order from and Ken
 
 The customer path is deliberately short:
 
-1. Confirm legal age.
+1. Confirm legal age; every product is restricted to adults aged 18 or older and valid ID is checked at handover.
 2. Browse or search the live catalogue.
 3. Add items without leaving the product grid.
 4. Choose delivery or pickup by arrangement and enter the required details.
@@ -34,11 +34,13 @@ The customer path is deliberately short:
 
 Persistent cart state protects the order if connectivity drops. The call action stays one tap away, while the mobile cart bar keeps the most likely next action within thumb reach.
 
+A compact FAQ keeps the operating rules visible without interrupting shopping: age verification, delivery fees, arranged pickup, cash/eWallet payments and how to request an unlisted item or flavour. Every product card also carries an 18+ marker so the restriction is never implied or easy to miss.
+
 ## Visual direction
 
 The design combines charcoal, warm cream and copper-orange with editorial serif typography. Ambient gradients, interactive light, tactile card motion and soft glass surfaces create energy without sacrificing readability. Reduced-motion preferences are respected, and expensive decorative effects collapse gracefully on touch devices.
 
-Every catalogue line now has its own recognisable product packshot: Tafel, Windhoek, Savanna, Hunters, Heineken, Castle Lite, Corona, Brutal Fruit, Jameson, Johnnie Walker, Jack Daniel's, JC Le Roux, Moët, Fanta, Sprite and the rest no longer reuse generic category art. The 46 supplier/manufacturer packshots were normalized into 512px WebP files; the complete source register is maintained in the private production repository so each asset can be audited or replaced with Kenny's own photography.
+Every catalogue line now has its own recognisable product packshot: Tafel, Windhoek, Savanna, Hunters, Heineken, Castle Lite, Corona, Brutal Fruit, Jameson, Johnnie Walker, Jack Daniel's, JC Le Roux, Moët, Fanta, Sprite, AirsPops and the rest no longer reuse generic category art. The 47 supplier/manufacturer packshots were normalized into 512px WebP files; the complete source register is maintained in the private production repository so each asset can be audited or replaced with Kenny's own photography.
 
 ## Technical architecture
 
@@ -77,6 +79,8 @@ Stock is deducted when an order is accepted. Kenny can move delivery and pickup 
 Pickup is always free, with the time and private collection point confirmed directly by Kenny. The customer's first delivery is free; later deliveries are free when the item subtotal reaches N$ 200 and N$ 50 below that threshold. The server calculates the fee from live prices and order history, so the checkout total cannot be manipulated in the browser.
 
 Checkout fields are constrained in the interface and revalidated by the API. Customer numbers must be exactly 10 digits in local Namibian format, and pickup orders require an explicit requested date and time within the next 30 days. The requested slot appears in Kenny's order queue but remains subject to direct confirmation.
+
+An optional special-request field lets customers ask for an unlisted drink, flavour, ice, AirsPops option, substitution or practical handover detail. Requests are length-limited, stored with the order and highlighted in Kenny's order ledger so availability and price can be confirmed before fulfilment.
 
 The control room includes a searchable, status-filtered and paginated order ledger; pickup-aware “ready for pickup” handling; range-based revenue and order KPIs; daily sales charts; cash/eWallet mix; best sellers; inventory valuation; low/out-of-stock watchlists; and formula-injection-safe CSV exports for sales and stock reporting.
 
