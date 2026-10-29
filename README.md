@@ -92,4 +92,4 @@ Utuseb now has a focused digital front door at [utuseb.pages.dev](https://utuseb
 
 ---
 
-Case study published by [Freeman Ipumbu](https://github.com/freeman-ipumbu). Production source remains private.
+Case study published by [Freeman Ipumbu](https://github.com/freeman-ipumbu) and presented within the [SolarSpin Technologies public work atlas](https://www.solarspin-namibia.xyz/). Production source remains private.
